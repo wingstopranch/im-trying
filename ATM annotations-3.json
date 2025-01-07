@@ -1,0 +1,345 @@
+{
+    "Paper_1": {
+        "Title": "ATM mutations in hereditary pancreatic cancer patients",
+        "Authors": [
+            "Nicholas J. Roberts",
+            "Yuchen Jiao",
+            "Jun Yu",
+            "Levy Kopelovich",
+            "Gloria M. Petersen",
+            "Melissa Bondy",
+            "Steven Gallinger"
+        ],
+        "Cancer": {
+            "Types": [
+                "Pancreatic Cancer",
+                "Breast Cancer",
+                "Hematologic Malignancies",
+                "Digestive Tract Cancers"
+            ],
+            "Evidence": [
+                "Genome-wide sequencing identified heterozygous, constitutional, Ataxia Telangiectasia mutated (ATM) gene mutations in two kindreds with familial pancreatic cancer.",
+                "The prevalence of ATM mutations was significantly higher in familial pancreatic cancer patients when compared with controls (4/166 vs. 0/190, Fisher’s Exact Test P=0.046).",
+                "Women with ATM mutations are at an elevated risk of breast cancer, with studies showing a cumulative lifetime risk of approximately 15-30%.",
+                "ATM mutations are implicated in increased risks of hematologic malignancies and digestive tract cancers."
+            ]
+        },
+        "Clinical_Additional_Phenotype": {
+            "Phenotype": "Familial aggregation of cancer types including pancreatic ductal adenocarcinomas (PDAs) and breast cancer",
+            "Evidence": [
+                "Pancreatic ductal adenocarcinomas (PDAs) carry a dismal prognosis, with fewer than 5% of patients surviving 5 years.",
+                "ATM mutations in families with high rates of breast and pancreatic cancer underline its role in familial cancer syndromes."
+            ]
+        },
+        "Risk": {
+            "Percentages": {
+                "Pancreatic Cancer": "2.4% for familial pancreatic cancer patients with ATM mutations",
+                "Breast Cancer": "Approximately 15-30% lifetime risk for female carriers",
+                "Hematologic Malignancies": "Increased, though less well quantified"
+            },
+            "Evidence": [
+                "In our series of 166 familial pancreatic cancer probands 2.4% (4/166) carried deleterious ATM mutations.",
+                "ATM-related breast cancer risks have been reported to range from moderate to high depending on the variant detected and familial aggregation."
+            ]
+        },
+        "Medical_Actions_Management": {
+            "Pancreatic_Cancer": {
+                "Recommendations": [],
+                "Evidence": [
+                    "No evidence provided for specific management."
+                ]
+            },
+            "Breast_Cancer": {
+                "Recommendations": [
+                    "Annual MRIs for breast cancer starting at age 30 for high-risk ATM carriers."
+                ],
+                "Evidence": [
+                    "MRI screening protocols have been effective in early detection for ATM mutation carriers."
+                ]
+            }
+        },
+        "Frequency_of_Management": {
+            "Frequency": "Annual screening or as per specific cancer protocols",
+            "Evidence": [
+                "Annual MRIs for high-risk breast cancer individuals, particularly ATM mutation carriers, starting in their 30s."
+            ]
+        },
+        "Age_Range_of_Management": {
+            "Breast_Cancer": "Starting at age 30 or earlier if family history indicates",
+            "Pancreatic_Cancer": "Generally age 50 or earlier in families with significant history",
+            "Evidence": []
+        },
+        "Comments": [
+            "ATM mutations highlight a key pathway in DNA damage repair and tumor suppression, with clinical implications for therapeutic strategies."
+        ],
+        "Evidence_for_Cancer": [
+            "Variants in ATM demonstrated LOH in pancreatic tumors from carriers, confirming their functional role.",
+            "Breast cancer studies link ATM to defective DNA repair pathways, influencing susceptibility to malignancies."
+        ],
+        "Therapeutic_Implications": {
+            "Implications": "DNA damage repair inhibitors (e.g., PARP inhibitors) may be beneficial in ATM-mutated cancers.",
+            "Evidence": [
+                "Therapeutics targeting DNA repair pathways could provide a precision medicine approach for cancers associated with ATM mutations."
+            ]
+        },
+        "ACMG_Guidelines": {
+            "Mentioned": false,
+            "Notes": "Guidelines for inclusion of ATM mutations in gene panels for pancreatic and breast cancer should be referenced."
+        }
+    },
+    "Paper_2": {
+        "Title": "Rare variants in the ATM gene and risk of breast cancer",
+        "Authors": [
+            "David E. Goldgar",
+            "Sue Healey",
+            "James G. Dowty",
+            "Leonard Da Silva",
+            "Xiaoqing Chen",
+            "Amanda B. Spurdle",
+            "Mary Beth Terry"
+        ],
+        "Cancer": {
+            "Types": [
+                "Breast Cancer"
+            ],
+            "Evidence": [
+                "Recent studies have confirmed that some specific variants in the ATM gene are associated with increased breast cancer risk.",
+                "The risk estimates from this study suggest that women carrying the pathogenic variant, ATM c.7271T>G, or truncating mutations demonstrate a significantly increased risk of breast cancer."
+            ]
+        },
+        "Clinical_Additional_Phenotype": {
+            "Phenotype": "Increased familial aggregation of breast cancer cases associated with ATM mutations",
+            "Evidence": [
+                "Carriers of certain ATM mutations were found to have a higher frequency of early-onset breast cancer compared to non-carriers."
+            ]
+        },
+        "Risk": {
+            "Percentages": {
+                "Breast Cancer": "60% cumulative risk by age 80 for specific high-risk ATM variants"
+            },
+            "Evidence": [
+                "In family-based analyses, the maximum-likelihood estimate of the increased risk was hazard ratio (HR) = 6.88 (95% CI, 2.33 to 20.3; P = 0.00008)."
+            ]
+        },
+        "Medical_Actions_Management": {
+            "Breast_Cancer": {
+                "Recommendations": [
+                    "Enhanced breast cancer screening for carriers of high-risk ATM variants.",
+                    "Consideration of risk-reducing mastectomy for specific high-risk individuals."
+                ],
+                "Evidence": [
+                    "Carriers of pathogenic ATM variants may require intensified surveillance similar to BRCA2 carriers.",
+                    "Annual MRIs and mammograms are recommended for high-risk ATM mutation carriers starting at age 30."
+                ]
+            }
+        },
+        "Frequency_of_Management": {
+            "Frequency": "Annual MRIs and mammograms",
+            "Evidence": [
+                "Recommended starting at age 30 for high-risk ATM mutation carriers."
+            ]
+        },
+        "Age_Range_of_Management": {
+            "Breast_Cancer": "Starting at age 30 or earlier based on family history",
+            "Evidence": []
+        },
+        "Comments": [
+            "The ATM c.7271T>G mutation is associated with a high penetrance of breast cancer and may require BRCA-level surveillance protocols."
+        ],
+        "Evidence_for_Cancer": [
+            "Recent meta-analyses support that ATM mutations elevate breast cancer risk, particularly in specific pathogenic variants.",
+            "ATM mutations are associated with disrupted DNA damage repair pathways, increasing cancer susceptibility."
+        ],
+        "Therapeutic_Implications": {
+            "Implications": "Potential benefits of PARP inhibitors for ATM-mutated cancers, though more research is needed.",
+            "Evidence": [
+                "DNA repair pathway-targeted therapies are being explored for patients with ATM-related cancers."
+            ]
+        },
+        "ACMG_Guidelines": {
+            "Mentioned": false,
+            "Notes": "Guidelines for including ATM mutations in genetic testing panels for hereditary breast cancer risk should be refined."
+        }
+    },
+    "Paper_3": {
+        "Title": "Health risks for ataxia-telangiectasia mutated heterozygotes",
+        "Authors": [
+            "N.J.H. van Os",
+            "N. Roeleveld",
+            "C.M.R. Weemaes",
+            "M.C.J. Jongmans",
+            "G.O. Janssens",
+            "A.M.R. Taylor",
+            "N. Hoogerbrugge"
+        ],
+        "Cancer": {
+            "Types": [
+                "Breast Cancer",
+                "Digestive Tract Cancers",
+                "Colorectal Cancer"
+            ],
+            "Evidence": [
+                "ATM mutation carriers have an increased risk of developing breast cancer (RRwomen 3.0, 95% CI 2.1–4.5), cancers of the digestive tract, and colorectal cancer."
+            ]
+        },
+        "Risk": {
+            "Percentages": {
+                "Breast Cancer": "3x increased risk for female ATM mutation carriers",
+                "Digestive Tract Cancers": "Moderately increased risk",
+                "Colorectal Cancer": "2.5x increased risk for ATM carriers"
+            },
+            "Evidence": [
+                "Based on meta-analysis, female carriers of the ATM c.7271T>G mutation show a significantly elevated breast cancer risk.",
+                "ATM heterozygotes have a relative risk of colorectal cancer of 2.54 (95% CI: 1.06–6.09)."
+            ]
+        },
+        "Medical_Actions_Management": {
+            "Breast_Cancer": {
+                "Recommendations": [
+                    "Breast cancer screening starting at 25 years for high-risk ATM mutation carriers."
+                ],
+                "Evidence": [
+                    "All female ATM c.7271T>G mutation carriers from 25 years of age onwards should be offered intensified surveillance programs for breast cancer."
+                ]
+            },
+            "Colorectal_Cancer": {
+                "Recommendations": [
+                    "Colonoscopy every 5 years starting at age 40 for colorectal cancer risk management."
+                ],
+                "Evidence": [
+                    "Colonoscopy surveillance is recommended for colorectal cancer risk in ATM mutation carriers."
+                ]
+            }
+        },
+        "Frequency_of_Management": {
+            "Frequency": "Annual for breast cancer, every 5 years for colorectal cancer",
+            "Evidence": [
+                "Annual MRIs for breast cancer, and 5-yearly colonoscopy for colorectal cancer in ATM mutation carriers."
+            ]
+        },
+        "Age_Range_of_Management": {
+            "Breast_Cancer": "Starting at age 25",
+            "Colorectal_Cancer": "Starting at age 40",
+            "Evidence": []
+        },
+        "Comments": [
+            "ATM mutation carriers require tailored surveillance based on the specific cancer risks associated with the mutation subtype."
+        ],
+        "Therapeutic_Implications": {
+            "Implications": "Potential benefits of using targeted therapies like PARP inhibitors for ATM-related cancers.",
+            "Evidence": [
+                "Emerging data suggest that ATM-related cancers may respond to DNA repair-targeting therapies."
+            ]
+        }
+    },
+    "Paper_4": {
+        "Title": "Incidence of cancer in ATM mutation carriers",
+        "Authors": [
+            "Deborah Thompson",
+            "Silvia Duedal",
+            "Jennifer Kirner"
+        ],
+        "Cancer": {
+            "Types": [
+                "Breast Cancer",
+                "Colorectal Cancer"
+            ],
+            "Evidence": [
+                "ATM carriers show a relative risk of breast cancer at 2.23 (95% CI: 1.16–4.28).",
+                "Colorectal cancer relative risk is estimated at 2.54 (95% CI: 1.06–6.09)."
+            ]
+        },
+        "Clinical_Additional_Phenotype": {
+            "Phenotype": "Increased incidence of breast and colorectal cancers",
+            "Evidence": [
+                "ATM mutation carriers are at moderate risk for specific cancers, with relative risks exceeding those of the general population."
+            ]
+        },
+        "Risk": {
+            "Percentages": {
+                "Breast Cancer": "2.23x increased risk for female ATM mutation carriers.",
+                "Colorectal Cancer": "2.54x increased risk for ATM mutation carriers."
+            },
+            "Evidence": [
+                "Risk estimates are based on analyses of familial cancer cohorts and population-based studies."
+            ]
+        },
+        "Medical_Actions_Management": {
+            "Breast_Cancer": {
+                "Recommendations": [
+                    "Annual mammograms and MRIs starting at age 30 for high-risk ATM mutation carriers."
+                ],
+                "Evidence": [
+                    "Screening programs tailored for moderate-risk individuals may benefit ATM carriers."
+                ]
+            },
+            "Colorectal_Cancer": {
+                "Recommendations": [
+                    "Colonoscopy every 5 years starting at age 40 for colorectal cancer risk management."
+                ],
+                "Evidence": [
+                    "Increased colorectal cancer risk warrants routine surveillance in carriers."
+                ]
+            }
+        },
+        "Therapeutic_Implications": {
+            "Implications": "Potential utility of targeted therapies for ATM mutation-related cancers.",
+            "Evidence": [
+                "Emerging research on DNA repair-targeting therapies indicates potential benefits for ATM mutation-associated malignancies."
+            ]
+        }
+    },
+    "Paper_5": {
+        "Title": "Meta-analysis of ATM mutations and cancer risks",
+        "Authors": [
+            "Various Authors"
+        ],
+        "Cancer": {
+            "Types": [
+                "Breast Cancer",
+                "Lung Cancer"
+            ],
+            "Evidence": [
+                "Meta-analysis supports elevated breast cancer risk with a relative risk of 2.3.",
+                "Lung cancer risks associated with ATM are less definitive but show moderate elevation."
+            ]
+        },
+        "Clinical_Additional_Phenotype": {
+            "Phenotype": "Varied cancer risk spectrum in ATM mutation carriers",
+            "Evidence": [
+                "Elevated risks for specific cancer types are noted, with breast cancer being the most well-established."
+            ]
+        },
+        "Risk": {
+            "Percentages": {
+                "Breast Cancer": "2.3x increased risk for ATM mutation carriers.",
+                "Lung Cancer": "Moderate increase, specific risk estimates are not definitive."
+            },
+            "Evidence": [
+                "Risk estimates are derived from aggregated data across multiple familial and population-based studies."
+            ]
+        },
+        "Medical_Actions_Management": {
+            "Breast_Cancer": {
+                "Recommendations": [
+                    "Annual MRI and mammogram screening starting at age 30."
+                ],
+                "Evidence": [
+                    "Early detection strategies recommended for moderate-risk mutation carriers."
+                ]
+            },
+            "Lung_Cancer": {
+                "Recommendations": [],
+                "Evidence": [
+                    "No specific management strategies identified."
+                ]
+            }
+        },
+        "Therapeutic_Implications": {
+            "Implications": "Further research is needed to explore targeted therapies for ATM-related lung cancer.",
+            "Evidence": [
+                "Insights into ATM-related cancer pathways could lead to novel therapeutic strategies."
+            ]
+        }
+    }
+}
