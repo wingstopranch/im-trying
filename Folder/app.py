@@ -13,6 +13,7 @@ app = Flask(__name__)
 @app.route("/ask-ai", methods=["POST"])
 def ask_ai():
     # Get the prompt from the frontend request
+    print(request.json)
     prompt = request.json.get("prompt")
 
     if not prompt:
