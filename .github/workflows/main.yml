@@ -1,28 +1,39 @@
-name: Deploy Workflow
+name: Deploy Python Backend with OpenAI Integration
 
 on:
   push:
     branches:
-      - main
+      - main  # Trigger on push to the main branch
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
 
     steps:
+    # Step 1: Checkout code
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
+    # Step 2: Set up Python environment
+    - name: Set up Python
+      uses: actions/setup-python@v2
       with:
-        node-version: '14'
+        python-version: '3.8'  # Specify the version of Python you want to use
 
+    # Step 3: Install dependencies
     - name: Install dependencies
-      run: npm install
-
-    - name: Run server-side JavaScript code
-      env:
-        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Inject the secret here
       run: |
-        node your-server-file.js  # Replace with your actual script file
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # Step 4: Set environment variable for OpenAI API key
+    - name: Set OpenAI API key
+      run: echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
+
+    # Step 5: Run the Python server (Flask app)
+    - name: Run Flask app
+      run: |
+        nohup python app.py &
+    
+    # Optional: Deploy to a cloud platform (Heroku, Render, etc.)
+    # Add deployment steps based on where you are hosting the app.
