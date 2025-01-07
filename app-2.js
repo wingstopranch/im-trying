@@ -123,6 +123,40 @@ document.addEventListener("DOMContentLoaded", () => {
         auditLogDiv.innerHTML = "<ul>" + auditLog.map((log) => `<li>${log}</li>`).join("") + "</ul>";
     });
 
+    // OpenAI Request when "Ask AI" form is submitted
+    document.getElementById("askAiForm").addEventListener("submit", (event) => {
+        event.preventDefault(); // Prevent form from refreshing the page
+
+        const userQuery = document.getElementById("askAi").value.trim();
+        if (!userQuery) {
+            alert("Please enter a query.");
+            return;
+        }
+
+        // Call OpenAI API with the user query
+        fetch("https://api.openai.com/v1/completions", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${process.env.OPENAI_API_KEY}` // Replace with your OpenAI API key
+            },
+            body: JSON.stringify({
+                model: "text-davinci-003", // or any other model you want to use
+                prompt: userQuery,
+                max_tokens: 150
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const aiResponse = data.choices[0].text.trim();
+            document.getElementById("aiResponse").innerText = aiResponse; // Display AI response
+        })
+        .catch(error => {
+            console.error("Error with OpenAI request:", error);
+            alert("There was an error processing your request. Please try again later.");
+        });
+    });
+
     function formatData(data) {
         const formatted = [];
         Object.entries(data).forEach(([paperId, details]) => {
@@ -161,8 +195,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         data.forEach((item) => {
             const row = document.createElement("tr");
-            row.innerHTML = `
-                <td>${item.Title}</td>
+            row.innerHTML = 
+                `<td>${item.Title}</td>
                 <td>${item.Cancer}</td>
                 <td>${item.Risk}</td>
                 <td>${item.Keywords}</td>
