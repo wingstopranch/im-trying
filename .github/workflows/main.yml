@@ -1,0 +1,28 @@
+name: Deploy Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run server-side JavaScript code
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Inject the secret here
+      run: |
+        node your-server-file.js  # Replace with your actual script file
