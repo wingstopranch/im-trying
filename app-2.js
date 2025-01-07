@@ -134,17 +134,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // Call OpenAI API with the user query
-        fetch("https://api.openai.com/v1/completions", {
+        fetch("https://im-trying.onrender.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer ${process.env.OPENAI_API_KEY}` // Replace with your OpenAI API key
             },
-            body: JSON.stringify({
-                model: "text-davinci-003", // or any other model you want to use
-                prompt: userQuery,
-                max_tokens: 150
-            })
+            body: userQuery
         })
         .then(response => response.json())
         .then(data => {
