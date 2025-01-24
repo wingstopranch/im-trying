@@ -1,4 +1,3 @@
-// Updated JavaScript Code for ATM Mutation Research Dashboard
 document.addEventListener("DOMContentLoaded", () => {
     let inclusionKeywords = [];
     let exclusionKeywords = [];
@@ -139,17 +138,17 @@ document.addEventListener("DOMContentLoaded", () => {
             headers: {
                 "Content-Type": "application/json",
             },
-            body: userQuery
+            body: JSON.stringify({ query: userQuery }),
         })
-        .then(response => response.json())
-        .then(data => {
-            const aiResponse = data.choices[0].text.trim();
-            document.getElementById("aiResponse").innerText = aiResponse; // Display AI response
-        })
-        .catch(error => {
-            console.error("Error with OpenAI request:", error);
-            alert("There was an error processing your request. Please try again later.");
-        });
+            .then((response) => response.json())
+            .then((data) => {
+                const aiResponse = data.choices[0].text.trim();
+                document.getElementById("aiResponse").innerText = aiResponse; // Display AI response
+            })
+            .catch((error) => {
+                console.error("Error with OpenAI request:", error);
+                alert("There was an error processing your request. Please try again later.");
+            });
     });
 
     function formatData(data) {
